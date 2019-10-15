@@ -1,0 +1,42 @@
+﻿h1
+{
+   text-align: center;   
+   font-family: georgia;
+   color: blue;
+   margin-bottom: 5px;
+   text-decoration: solid underline;
+}
+h2 {
+   text-align: center;
+   font-family: italic;
+   color: black;
+   margin-bottom: 5px;
+}
+
+table, th, td {
+   align-content:center;
+   border: 1px solid black;
+}
+table.center{
+   margin-left:auto;
+   margin-right:auto;
+}
+.navigation {
+   list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 10em;
+    z-index: 1;
+}
+
+li a {
+   display: block;
+}
+
+
+
+
