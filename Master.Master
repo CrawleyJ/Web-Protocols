@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="CrawleyJ_Prog3.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="StyleSheet.css" rel="stylesheet"  type="text/css" />
+    <title>CS 3870-Prog3</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   <ul class="navigation">
+      <li><a href="default.aspx">Default</a></li>
+      <li><a href="Updating.aspx">Updating</a></li>  
+      <li><a href="Shopping.aspx">Shopping</a></li>
+   </ul>
+   <h1>Web Protocols, Technologies, and Applications</h1>
+   <h2>By: Jamal Crawley</h2>
+   <h3>CS 3870: Program 3</h3>    
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
