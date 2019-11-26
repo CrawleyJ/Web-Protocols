@@ -1,0 +1,137 @@
+﻿h1
+{
+   text-align: center;   
+   font-family: georgia;
+   color: blue;
+   margin-bottom: 5px;
+   text-decoration: solid underline;
+}
+h2 {
+   text-align: center;
+   font-family: italic;
+   color: black;
+   margin-bottom: 5px;
+}
+h3 {
+   text-align: center;
+   font-family: italic;
+   color: black;
+   top: 25px;
+   
+   
+   margin-bottom: 5px;
+}
+
+table, th, td {
+   align-content:center;
+   border: 1px solid black;
+}
+table.center{
+   margin-left:auto;
+   margin-right:auto;
+}
+.navigation {
+   list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    height: 150px;
+    width: 110px;
+    top: 160px;
+    z-index: 1;
+}
+.systems {
+   text-align: center;
+   display: block;
+}
+li a {
+   display: block;
+}
+.auto-style4 {
+   width: 186px;
+}
+
+.auto-style5 {
+   width: 179px;
+}
+
+.auto-style6 {
+   width: 188px;
+}
+
+.auto-style9 {
+   margin-left: 0px;
+}
+
+.auto-style11 {
+   width: 942px;
+   text-align: left;
+   height: 26px;
+}
+
+.auto-style12 {
+   width: 912px;
+}
+
+.auto-style13 {
+   width: 44%;
+   margin-right: 0px;
+}
+
+.auto-style14 {
+   width: 942px;
+}
+
+.auto-style15 {
+   width: 1141px;
+}
+
+.auto-style16 {
+   width: 1141px;
+   height: 26px;
+}
+
+.auto-style17 {
+   width: 912px;
+   height: 26px;
+}
+
+.auto-style19 {
+   width: 942px;
+   height: 33px;
+}
+
+.auto-style20 {
+   width: 1141px;
+   height: 33px;
+}
+
+.auto-style21 {
+   width: 912px;
+   height: 33px;
+}
+.inputTable {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100px;
+}
+.OutputTable {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    align-content: center;
+    
+}
+.InputTable {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100px;
+
+}
+
+
+
+
