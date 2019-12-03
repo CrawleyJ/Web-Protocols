@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main/MainMaster.Master" AutoEventWireup="true" CodeBehind="Prog7MasterPage.master.cs" Inherits="Program6.Prog7.Prog7MasterPage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+         <H3>Prog 7</H3>
+        <asp:TreeView ID="TreeView1" runat="server">
+                 <Nodes>
+                 <asp:TreeNode Text="UWP CS 3870" Target="_blank" >
+
+                     <asp:TreeNode NavigateUrl="CreateUser.aspx" Text="Create Users"></asp:TreeNode>
+                     <asp:TreeNode Text="Prog5" NavigateUrl="~Prog5/Default.aspx" ></asp:TreeNode>
+                     <asp:TreeNode Text="Prog6" NavigateUrl="~/Prog6/Default.aspx">
+                         <asp:TreeNode Text="Admin">
+                             <asp:TreeNode Text="Set Roles" NavigateUrl="~/Prog6/Admin/SetRoles.aspx"></asp:TreeNode>
+                             <asp:TreeNode Text="Updating Products" NavigateUrl="~/Prog6/Admin/Updating.aspx"></asp:TreeNode>
+                         </asp:TreeNode>
+                     <asp:TreeNode Text="Member">
+                         <asp:TreeNode Text="Shopping" NavigateUrl="~/Prog6/Member/Shopping.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Checkout" NavigateUrl="~/Prog6/Member/Checkout.aspx"></asp:TreeNode>
+                     </asp:TreeNode>                            
+                     </asp:TreeNode>
+                     <asp:TreeNode Text="Prog7" NavigateUrl="~/Prog7/Default.aspx">
+                         <asp:TreeNode Text="Admin">
+                             <asp:TreeNode Text="Updating Products" NavigateUrl="~/Prog7/Admin/Updating.aspx"></asp:TreeNode>
+                         </asp:TreeNode>
+                     <asp:TreeNode Text="Member">
+                         <asp:TreeNode Text="Shopping" NavigateUrl="~/Prog7/Member/Shopping.aspx"></asp:TreeNode>
+                            <asp:TreeNode Text="Checkout" NavigateUrl="~/Prog7/Member/Checkout.aspx"></asp:TreeNode>
+                     </asp:TreeNode>                            
+                     </asp:TreeNode>
+                 </asp:TreeNode>     
+                 </Nodes>
+             </asp:TreeView>
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             
+         </asp:ContentPlaceHolder>
+         
+   </asp:ContentPlaceHolder>
+</asp:Content>
